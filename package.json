@@ -17,7 +17,7 @@
     "build": "babel-node tools/build.js",
     "postbuild": "babel-node tools/distServer.js"
   },
-  "author": "Cory House",
+  "author": "Chih-Ho Chou",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.26.0",
@@ -75,6 +75,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/lasthero/chchou.com"
   }
 }
