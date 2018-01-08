@@ -1,4 +1,7 @@
 # chchou.com
 My Personal Web Site
-* To run on dev mode: npm start
-* To build and run on production mode: npm run build
+* To run:
+    $ npm install
+    $ npm start
+* Build for production: 
+    $ npm run build
