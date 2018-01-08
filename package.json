@@ -25,6 +25,7 @@
     "compression": "1.6.1",
     "express": "4.13.4",
     "jquery": "2.2.3",
+    "open": "0.0.5",
     "react": "15.0.2",
     "react-dom": "15.0.2",
     "react-download-link": "^2.0.0",
