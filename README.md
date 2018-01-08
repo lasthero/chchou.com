@@ -1,7 +1,7 @@
 # chchou.com
 My Personal Web Site
-* To run:
-    $ npm install
+* To run:<br/>
+    $ npm install<br/>
     $ npm start
-* Build for production: 
+* Build for production: <br/>
     $ npm run build
