@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Personal Website of Chih-Ho Chou",
   "scripts": {
-    "//": "babel-node tools/startMessage.js",
     "//": "npm-run-all --parallel open:src lint:watch test:watch",
-    "start": "npm-run-all postbuild",
+    "start": "node tools/server.js",
     "open:src": "babel-node tools/srcServer.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "lint:watch": "npm run lint -- --watch",
@@ -35,7 +34,7 @@
     "toastr": "2.1.2"
   },
   "devDependencies": {
-    "babel-cli": "6.8.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "^8.1.2",
     "babel-loader": "6.2.4",
